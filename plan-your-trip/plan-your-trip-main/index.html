@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/b1f7fab984.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Plan your trip</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasExample"
+          aria-controls="offcanvasExample"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <a href="#" class="btn btn-primary" style="border-radius: 15px"
+            ><i class="fas fa-home" style="padding-right: 3px"></i>HOME</a
+          >
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PRICING</a>
+            </li>
+            <a href="#" class="btn btn-primary bg-black"
+              >ACCOUNT<i
+                class="fas fa-user-circle 4x"
+                style="padding-left: 4px; color: #bd00ff"
+              ></i>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="offcanvas offcanvas-start"
+      id="offcanvasExample"
+      tabindex="-1"
+      style="visibility: hidden"
+      aria-hidden="true"
+    >
+      <div class="container offcan d-flex">
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          data-bs-target="#my-offcanvas"
+          aria-label="Close"
+        ></button>
+        <hr class="horizontalrulenav" />
+      </div>
+      <div class="offcanvas-body">
+        <div class="container-ul">
+          <img src="images/Logo.png" style="width: 70%" alt="" />
+          <hr />
+          <br />
+          <ul class="navbar-nav md-auto flex px-1">
+            <button class="btn btn-primary" type="submit">
+              <i class="bi bi-house-door rounded-circle"></i> Home
+            </button>
+            <li class="nav-item">
+              <a href="#about" class="nav-link text-center"
+                ><text class="nav-item-text">About</text></a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link text-center"
+                ><text class="nav-item-text">Contact</text></a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#pricing" class="nav-link text-center"
+                ><text class="nav-item-text">Pricing</text></a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#Account" class="nav-link text-center"
+                ><text class="nav-item-text">Account</text
+                ><span class="px-0"
+                  ><i class="bi bi-person-circle rounded-circle"></i></span
+              ></a>
+            </li>
+          </ul>
+          <br />
+          <hr />
+          <p>Copyright 2021 • Plan Your Trip</p>
+          <p>
+            For more queries contact us at <br />
+            contact@planyourtrip.com
+          </p>
+        </div>
+      </div>
+    </div>
+    <section id="banner">
+      <div class="container d-md-flex">
+        <div class="row">
+          <div class="col-mid-6">
+            <img src="images/Logo.png" id="logo" alt="" />
+
+            <div class="box relative">
+              <div class="topLong absolute d-md-block d-none"></div>
+              <div class="topSmall absolute d-md-block d-none"></div>
+              <div class="leftTop d-md-block d-none"></div>
+              <div class="bottomLong absolute d-md-block d-none"></div>
+              <div class="bottomSmall absolute d-md-block d-none"></div>
+              <div class="leftBottom d-md-block d-none"></div>
+
+              <div class="content_box px-5 py-2 mx-auto">
+                <h4 class="pt-3 text-md-left text-center">
+                  Get a long trip planned but don't know how to organize?
+                </h4>
+                <br />
+                <h6 class="pb-4">
+                  Leave the planning to us while you focus on the trip
+                </h6>
+              </div>
+            </div>
+            <br />
+            <br />
+            <button class="button">
+              <span class="small" style="font-size: medium; padding: 5px"
+                >TRY FOR FREE<i
+                  class="fas fa-arrow-right 3x"
+                  style="padding-left: 4px"
+                ></i
+              ></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="wave container-fluid">
+        <img src="images/wave1.svg" class="bottom-img" />
+      </div>
+    </section>
+    <section id="review">
+      <div class="container">
+        <div class="divider-custom divider-light">
+          <hr />
+          <h3 style="display: inline">Our Happiness</h3>
+          <hr />
+        </div>
+
+        <div class="d-md-flex flex-md-row justify-content-md-center pt-5">
+          <!-- <div class="col-md-3" > -->
+          <div class="card" style="width: 250px">
+            <img
+              src="images/user.png"
+              style="width: 50%; margin: 20px auto"
+              class="card-image-top"
+              alt=""
+            />
+            <div class="card-body">
+              <h5>ELENE ROSEN</h5>
+              <hr style="margin-bottom: 4px" />
+              <hr style="margin-top: 1px" />
+
+              <p class="card-text">
+                This was a wonderful experience for all of us in our family
+              </p>
+            </div>
+          </div>
+          <!-- </div> -->
+          <!-- <div class="col-md-3" > -->
+          <div class="card" style="width: 250px">
+            <img
+              src="images/user.png"
+              style="width: 50%; margin: 20px auto"
+              class="card-image-top"
+              alt=""
+            />
+            <div class="card-body">
+              <h5>IRENE HADLER</h5>
+              <hr style="margin-bottom: 4px" />
+              <hr style="margin-top: 1px" />
+              <p class="card-text">
+                Definitely recommended to anyone who wants to have a hassle free
+                vacation
+              </p>
+            </div>
+          </div>
+          <!-- </div> -->
+          <!-- <div class="col-md-3"> -->
+          <div class="card" style="width: 250px">
+            <img
+              src="images/user.png"
+              style="width: 50%; margin: 20px auto"
+              class="card-image-top"
+              alt=""
+            />
+            <div class="card-body">
+              <h5>ALOA SHERGILL</h5>
+              <hr style="margin-bottom: 4px" />
+              <hr style="margin-top: 1px" />
+
+              <p class="card-text">This was a wholesome vacation experience!</p>
+            </div>
+          </div>
+          <!-- </div> -->
+        </div>
+      </div>
+    </section>
+    <hr style="margin: 0" />
+    <section class="bottom-container" style="position: relative">
+      <div id="bottom-btn" style="height: 100px; background-color: #bd00ff">
+        <button
+          onclick="topFunction()"
+          class="btn btn-primary btn-md"
+          id="btndisclaimer"
+          style="border-radius: 60%; background-color: #270e2d"
+        >
+          <i class="fas fa-chevron-up"></i>
+        </button>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+    <script src="nav.js"></script>
+  </body>
+</html>
